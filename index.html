@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Growth Academy</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #172033;
+            background: #ffffff;
+        }
+
+        header {
+            background: #0b1f3a;
+            color: white;
+            padding: 18px 6%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 14px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #eaf4ff, #ffffff);
+            padding: 80px 6%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+            color: #0b1f3a;
+        }
+
+        .hero h1 span {
+            color: #1769e0;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            color: #5d6b7d;
+            font-size: 18px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 28px;
+            background: #1769e0;
+            color: white;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 65px 6%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #667085;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            padding: 25px;
+            border: 1px solid #e0e6ef;
+            border-radius: 12px;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            margin: 12px 0;
+        }
+
+        .card p {
+            color: #667085;
+        }
+
+        .modules {
+            background: #f6f9fd;
+        }
+
+        .module-list {
+            max-width: 900px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .module {
+            background: white;
+            padding: 18px;
+            border-radius: 10px;
+            border: 1px solid #e1e7ef;
+        }
+
+        .module strong {
+            color: #1769e0;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about p {
+            color: #667085;
+            margin-top: 15px;
+        }
+
+        .cta {
+            background: #0b1f3a;
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 32px;
+        }
+
+        .cta p {
+            margin-top: 10px;
+            color: #d5deeb;
+        }
+
+        footer {
+            background: #071426;
+            color: #b7c2d1;
+            text-align: center;
+            padding: 25px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 750px) {
+
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero h1 {
+                font-size: 35px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .module-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        DIGITAL GROWTH ACADEMY
+    </div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#course">Course</a>
+        <a href="#modules">Modules</a>
+        <a href="#about">About</a>
+    </nav>
+
+</header>
+
+
+<section class="hero" id="home">
+
+    <h1>
+        Learn Digital Skills.<br>
+        <span>Build Your Future.</span>
+    </h1>
+
+    <p>
+        Master practical digital skills that can help you create content,
+        market businesses, work with clients, build your online presence
+        and develop your own digital business.
+    </p>
+
+    <a href="#course" class="button">
+        Start Learning
+    </a>
+
+</section>
+
+
+<section id="course">
+
+    <div class="section-title">
+
+        <h2>Beginner Digital Skills Course</h2>
+
+        <p>
+            A practical learning journey designed for beginners.
+        </p>
+
+    </div>
+
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div style="font-size:35px;">📱</div>
+
+            <h3>Practical Digital Skills</h3>
+
+            <p>
+                Learn useful digital skills using your smartphone,
+                tablet or computer.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div style="font-size:35px;">🎨</div>
+
+            <h3>Create & Design</h3>
+
+            <p>
+                Learn content creation, Canva, graphic design and
+                professional digital communication.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div style="font-size:35px;">💼</div>
+
+            <h3>Career & Business</h3>
+
+            <p>
+                Learn freelancing, digital marketing, online business
+                and personal branding.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="modules" id="modules">
+
+    <div class="section-title">
+
+        <h2>Our 12 Modules</h2>
+
+        <p>
+            Learn step-by-step from beginner to practical application.
+        </p>
+
+    </div>
+
+
+    <div class="module-list">
+
+        <div class="module">
+            <strong>01.</strong>
+            Digital Skills Foundations
+        </div>
+
+        <div class="module">
+            <strong>02.</strong>
+            Smartphone, Internet & Digital Tools
+        </div>
+
+        <div class="module">
+            <strong>03.</strong>
+            Content Creation
+        </div>
+
+        <div class="module">
+            <strong>04.</strong>
+            Canva & Graphic Design
+        </div>
+
+        <div class="module">
+            <strong>05.</strong>
+            Social Media & Content Strategy
+        </div>
+
+        <div class="module">
+            <strong>06.</strong>
+            AI Tools for Beginners
+        </div>
+
+        <div class="module">
+            <strong>07.</strong>
+            Digital Marketing
+        </div>
+
+        <div class="module">
+            <strong>08.</strong>
+            Making Money With Digital Skills
+        </div>
+
+        <div class="module">
+            <strong>09.</strong>
+            Freelancing & Finding Clients
+        </div>
+
+        <div class="module">
+            <strong>10.</strong>
+            Building Your Online Business
+        </div>
+
+        <div class="module">
+            <strong>11.</strong>
+            Personal Branding & Professional Online Presence
+        </div>
+
+        <div class="module">
+            <strong>12.</strong>
+            Final Project, Assessment & Career Launch
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about">
+
+    <div class="about">
+
+        <div class="section-title">
+
+            <h2>About Digital Growth Academy</h2>
+
+        </div>
+
+        <p>
+            Digital Growth Academy is designed to make digital learning
+            simple, practical and accessible to beginners.
+        </p>
+
+        <p>
+            Our learning philosophy is:
+            <strong>
+                Learn → Practice → Create → Promote → Find Customers → Improve.
+            </strong>
+        </p>
+
+        <p>
+            Students don't just learn theory. They practice skills,
+            complete assignments, build projects and prepare for real-world
+            digital opportunities.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="cta">
+
+    <h2>Ready to Start Your Digital Journey?</h2>
+
+    <p>
+        Start learning practical digital skills and build your future.
+    </p>
+
+    <a href="#course" class="button">
+        Join Digital Growth Academy
+    </a>
+
+</section>
+
+
+<footer>
+
+    © 2026 Digital Growth Academy.
+    All Rights Reserved.
+
+    <br><br>
+
+    Learn • Practice • Create • Promote • Grow
+
+</footer>
+
+
+</body>
+</html>
